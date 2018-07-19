@@ -2,8 +2,12 @@
   "name": "alexa-skill-kit-sdk-factskill",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "lint": "standard --fix"
+  },
   "dependencies": {
     "alexa-sdk": "^1.0.25",
-    "axios": "*"
+    "axios": "*",
+    "standard": "^11.0.1"
   }
 }
